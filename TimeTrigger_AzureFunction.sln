@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTrigger_AzureFunction", "TimeTrigger_AzureFunction\TimeTrigger_AzureFunction.csproj", "{45C83780-3ACA-4C4C-B066-48123EAA5918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45C83780-3ACA-4C4C-B066-48123EAA5918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C83780-3ACA-4C4C-B066-48123EAA5918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C83780-3ACA-4C4C-B066-48123EAA5918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C83780-3ACA-4C4C-B066-48123EAA5918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FBA2B63-4D96-41EF-B212-036F8F14CF6A}
+	EndGlobalSection
+EndGlobal
