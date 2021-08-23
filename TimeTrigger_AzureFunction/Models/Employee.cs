@@ -1,10 +1,12 @@
-﻿namespace TimeTrigger_AzureFunction.Models
+﻿using System;
+
+namespace TimeTrigger_AzureFunction.Models
 {
     public class Employee
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Designation { get; set; }
-        public string City { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime AddMinutes { get; set; }
     }
 }
