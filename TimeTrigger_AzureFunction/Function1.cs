@@ -19,7 +19,7 @@ namespace TimeTrigger_AzureFunction
         }
         #endregion
         [FunctionName("JobExecution")]
-        public void InsertData([TimerTrigger("0 */1 * * * *")] TimerInfo myTimer, ILogger log)
+        public void InsertData([TimerTrigger("%EveryMin%")] TimerInfo myTimer, ILogger log)
         {
             var employee = new Employee { Name = "Jay", IsActive = true,AddMinutes = DateTime.Now};
             _appDbContext.Employees.AddAsync(employee);
@@ -27,7 +27,7 @@ namespace TimeTrigger_AzureFunction
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
         }
         [FunctionName("FetchResults")]
-        public void FetchData([TimerTrigger("0 */5 * * * *")] TimerInfo myTimer, ILogger log)
+        public void FetchData([TimerTrigger("%EveryFiveMinutes%")] TimerInfo myTimer, ILogger log)
         {
             var data = _appDbContext.Employees.ToList();
             log.LogInformation($"Total Records Count : {data.Count}");
