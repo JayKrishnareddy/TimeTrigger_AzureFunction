@@ -13,3 +13,7 @@
 - Disabling a Function
 - Testing the Functions
 - Summary
+
+If you want to learn more about this Article 👇🏻
+
+[**C# Corner**](https://www.c-sharpcorner.com/article/time-triggered-azure-functions-a-guide-to-background-tasks-using-c-sharp/ "C# Corner")
