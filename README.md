@@ -11,7 +11,7 @@
 - Configure the CRON expression
 - Configure the Functions
 - Disabling a Function
-- Testing the Functions
+- Testing the Function
 - Summary
 
 If you want to learn more about this Article 👇🏻
