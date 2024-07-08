@@ -18,4 +18,4 @@ If you want to learn more about this Article 👇🏻
 
 [**C# Corner**](https://www.c-sharpcorner.com/article/time-triggered-azure-functions-a-guide-to-background-tasks-using-c-sharp/ "C# Corner")
 
-[**Medium**](https://medium.com/@jaykrishnareddy/secure-your-azure-functions-endpoints-open-api-with-basic-authentication-net-831285a9df24 "Medium")
+[**Medium**](https://medium.com/@jaykrishnareddy/time-triggered-azure-functions-a-guide-to-background-tasks-using-c-8ac32fca40f9 "Medium")
