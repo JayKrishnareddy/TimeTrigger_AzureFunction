@@ -12,6 +12,7 @@
 - Configure the Functions
 - Disabling a Function
 - Testing the Function
+- Complete Source Code
 - Summary
 
 If you want to learn more about this Article 👇🏻
